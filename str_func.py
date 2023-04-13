@@ -1,6 +1,5 @@
 def upper_string(s):
-    return s.upper()
-"""
+    """
 Возвращает входную строку заглавными буквами.
 
 Параметры:
@@ -9,6 +8,7 @@ def upper_string(s):
 Возвращается:
 str: Вводимая строка заглавными буквами.
 """
+    return s.upper()
 
 result = upper_string("davydov")
 print(result)
